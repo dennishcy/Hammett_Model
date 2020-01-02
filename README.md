@@ -25,8 +25,7 @@ In order to capture both the inductive and resonance effect, the following featu
 + **en2**: sum of Pauling electronegativity of atoms 2 bonds away from the benzene ring
 + **en3**: sum of Pauling electronegativity of atoms 3 bonds away from the benzene ring
 + **en4**: sum of Pauling electronegativity of atoms 4 bonds away from the benzene ring
-+ **en4**: sum of Pauling electronegativity of atoms 4 bonds away from the benzene ring
-+ **en5**: sum of Pauling electronegativity of atoms 5 bonds away from the benzene ring.
++ **en5**: sum of Pauling electronegativity of atoms 5 bonds away from the benzene ring
 
 Note: **lp2p**, **lp3p**, and **pi_conj** are categorical variables where 0 denotes no and 1 denotes yes.  For **en1-5**, if the atoms are connected through multiple bonds, then their electronegativity are calculated multiple times.  For example, for a carbon connected through a double bond, its electronegativity will be counted twice (2.55x2=5.10).  Similarly, in a ring system, the atoms are counted multiple times every time encountered in bonding path.
 
